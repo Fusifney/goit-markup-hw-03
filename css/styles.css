@@ -1,0 +1,216 @@
+:root {
+  /* Fonts */
+  --primary-font: Roboto, sans-serif;
+  --secondary-font: Raleway, sans-serif;
+  /* Font Colors */
+  --primary-cl: #434455;
+  --secondary-cl: #2E2F42;
+  --tertiary-cl: #F4F4FD;
+  --web-cl: #4D5AE5;
+  --header-ahf-cl: #404BBF;
+  --hero-cl: #ffffff;
+  /* Background Colors */
+  --primary-bg-cl: #ffffff;
+  --secondary-bg-cl: #2E2F42;
+  --tertiary-bg-cl: #F4F4FD;
+  --hero-btn-bg-cl: #4D5AE5;
+  /* Other */
+}
+
+/**
+  |============================
+  | Common styles
+  |============================
+*/
+
+body {
+  font-family: var(--primary-font);
+  font-size: 16px;
+  line-height: 1.50;
+  letter-spacing: 0.02em;
+  color: var(--primary-cl);
+  background-color: var(--primary-bg-cl);
+}
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--secondary-cl);
+}
+
+.list-header {
+  color: var(--secondary-cl);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.20;
+}
+
+/* Reset */
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  font-style: normal;
+  color: inherit;
+}
+
+.btn {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+/**
+  |============================
+  | Header styles
+  |============================
+*/
+
+.web-logo {
+  font-family: var(--secondary-font);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--web-cl)
+}
+
+.header-studio-logo {
+  color: var(--secondary-cl);
+}
+
+.nav-list {
+  font-weight: 500;
+  color: var(--secondary-cl);
+}
+
+.header-list .link:active,
+.header-list .link:hover,
+.header-list .link:focus {
+  color: var(--header-ahf-cl)
+}
+
+/**
+  |============================
+  | Main styles
+  |============================
+*/
+
+/* Hero section */
+
+.hero-section {
+  background-color: var(--secondary-bg-cl);
+  text-align: center;
+}
+
+.hero-title {
+  color: var(--hero-cl);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+}
+
+.hero-btn {
+  color: var(--hero-cl);
+  background-color: var(--hero-btn-bg-cl);
+  font-weight: 500;
+  letter-spacing: 0.04em;
+}
+
+.hero-btn:active,
+.hero-btn:focus,
+.hero-btn:hover {
+  background-color: var(--header-ahf-cl)
+}
+
+/* Features section */
+
+/* WAWD section */
+
+/* Team section */
+
+.team-section {
+  background-color: var(--tertiary-bg-cl);
+}
+
+.team-item {
+  text-align: center;
+}
+
+/**
+  |============================
+  | Portfolio styles
+  |============================
+*/
+
+.portfolio-btn {
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--web-cl);
+  background-color: var(--tertiary-bg-cl);
+}
+
+.portfolio-btn:active,
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  color: var(--hero-cl);
+  background-color: var(--header-ahf-cl);
+}
+
+/**
+  |============================
+  | Footer styles
+  |============================
+*/
+
+.footer-section {
+  background-color: var(--secondary-bg-cl);
+}
+
+.footer-studio-logo {
+  color: var(--tertiary-cl)
+}
+
+.footer-text {
+  color: var(--tertiary-cl)
+}
+
+/**
+  |============================
+  | Unnecessary bot requirements
+  |============================
+*/
+
+/* common styles */
+.section-title {
+  letter-spacing: 0.02em;
+}
+
+.list-header {
+  letter-spacing: 0.02em;
+}
+
+/* header styles */
+.header-address {
+  font-style: normal;
+}
+
+/* main styles */
+.hero-title {
+  letter-spacing: 0.02em;
+}
+
+.hero-btn {
+  line-height: 1.50;
+}
+
+/* portfolio styles */
+.portfolio-btn {
+  line-height: 1.50;
+}
