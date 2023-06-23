@@ -47,6 +47,7 @@ body {
   text-align: center;
   text-transform: capitalize;
   color: var(--secondary-cl);
+  padding-bottom: 72px;
 }
 
 .list-header {
@@ -96,6 +97,13 @@ p {
   padding-bottom: 25.5px;
 }
 
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+}
+
 .web-logo {
   font-family: var(--secondary-font);
   font-weight: 800;
@@ -103,11 +111,34 @@ p {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--web-cl)
+  color: var(--web-cl);
 }
 
 .header-studio-logo {
   color: var(--secondary-cl);
+  margin-right: 76px;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.header-address {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.header-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  gap: 20px;
 }
 
 .nav-list {
@@ -132,6 +163,8 @@ p {
 .hero-section {
   background-color: var(--secondary-bg-cl);
   text-align: center;
+  padding-top: 188px;
+  padding-bottom: 204px;
 }
 
 .hero-title {
@@ -139,7 +172,6 @@ p {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-  padding-top: 188px;
   padding-bottom: 48px;
 }
 
@@ -158,12 +190,25 @@ p {
 
 /* Features section */
 
+.features-section {
+  padding-top: 120px;
+  padding-bottom: 60px;
+}
+
 /* WAWD section */
+
+.wawd-section {
+  padding-top: 60px;
+  padding-bottom: 120px;
+}
+
 
 /* Team section */
 
 .team-section {
   background-color: var(--tertiary-bg-cl);
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .team-item {
@@ -199,14 +244,17 @@ p {
 
 .footer-section {
   background-color: var(--secondary-bg-cl);
+  padding-top: 101.5px;
+  padding-bottom: 100px;
 }
 
 .footer-studio-logo {
-  color: var(--tertiary-cl)
+  color: var(--tertiary-cl);
 }
 
 .footer-text {
-  color: var(--tertiary-cl)
+  color: var(--tertiary-cl);
+  padding-top: 17.5px;
 }
 
 /**
