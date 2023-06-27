@@ -42,7 +42,6 @@ body {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 2px solid red;
 }
 
 .card-set {
@@ -122,6 +121,10 @@ img {
   | Header styles
   |============================
 */
+
+.header {
+  border-bottom: 1px solid var(--pf-btn-border-cl);
+}
 
 .header-link {
   display: block;
@@ -357,10 +360,6 @@ img {
 /* header styles */
 .header-address {
   font-style: normal;
-}
-
-.header {
-  border-bottom: 1px solid var(--pf-btn-border-cl);
 }
 
 /* main styles */
