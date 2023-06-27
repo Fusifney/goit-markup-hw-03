@@ -123,10 +123,15 @@ img {
   |============================
 */
 
+/* Bot req */
+.header {
+  border-bottom: 1px solid var(--pf-btn-border-cl);
+}
+
 .header-link {
   display: block;
-  padding-top: 25.5px;
-  padding-bottom: 25.5px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-container {
@@ -144,11 +149,11 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--web-cl);
+  margin-right: 76px;
 }
 
 .header-studio-logo {
   color: var(--secondary-cl);
-  margin-right: 76px;
 }
 
 .header-nav {
@@ -170,7 +175,7 @@ img {
   justify-content: space-between;
   align-items: center;
   flex-shrink: 0;
-  gap: 20px;
+  gap: 40px;
 }
 
 .nav-list {
