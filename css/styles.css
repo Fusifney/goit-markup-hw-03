@@ -62,7 +62,7 @@ body {
   text-align: center;
   text-transform: capitalize;
   color: var(--secondary-cl);
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .list-header {
@@ -122,11 +122,6 @@ img {
   | Header styles
   |============================
 */
-
-/* Bot req */
-.header {
-  border-bottom: 1px solid var(--pf-btn-border-cl);
-}
 
 .header-link {
   display: block;
@@ -201,7 +196,7 @@ img {
   background-color: var(--secondary-bg-cl);
   text-align: center;
   padding-top: 188px;
-  padding-bottom: 204px;
+  padding-bottom: 188px;
 }
 
 .hero-title {
@@ -212,7 +207,7 @@ img {
   padding-bottom: 48px;
   display: flex;
   flex-direction: column;
-  width: 496px;
+  max-width: 496px;
   flex-shrink: 0;
   margin: 0 auto;
 }
@@ -222,11 +217,13 @@ img {
   background-color: var(--hero-btn-bg-cl);
   font-weight: 500;
   letter-spacing: 0.04em;
-  display: inline-flex;
+  display: block;
+  margin: 0 auto;
   padding: 16px 32px;
   border-radius: 4px;
   min-width: 169px;
-  min-height: 56px;
+  height: 56px;
+  border: none;
 }
 
 .hero-btn:active,
@@ -239,13 +236,12 @@ img {
 
 .features-section {
   padding-top: 120px;
-  padding-bottom: 60px;
+  padding-bottom: 120px;
 }
 
 /* WAWD section */
 
 .wawd-section {
-  padding-top: 60px;
   padding-bottom: 120px;
 }
 
@@ -300,6 +296,7 @@ img {
 .portfolio-btn:focus {
   color: var(--hero-cl);
   background-color: var(--header-ahf-cl);
+  border: 1px solid transparent;
 }
 
 .button-list {
@@ -328,17 +325,18 @@ img {
 
 .footer-section {
   background-color: var(--secondary-bg-cl);
-  padding-top: 101.5px;
+  padding-top: 100px;
   padding-bottom: 100px;
 }
 
 .footer-studio-logo {
   color: var(--tertiary-cl);
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-text {
   color: var(--tertiary-cl);
-  padding-top: 17.5px;
 }
 
 /**
@@ -361,6 +359,10 @@ img {
   font-style: normal;
 }
 
+.header {
+  border-bottom: 1px solid var(--pf-btn-border-cl);
+}
+
 /* main styles */
 .hero-title {
   letter-spacing: 0.02em;
@@ -370,7 +372,19 @@ img {
   line-height: 1.50;
 }
 
+.features-title {
+  margin-bottom: 8px;
+}
+
 /* portfolio styles */
 .portfolio-btn {
   line-height: 1.50;
+}
+
+.portfolio-title {
+  margin-bottom: 8px;
+}
+
+.portfolio-list {
+  gap: 24px;
 }
