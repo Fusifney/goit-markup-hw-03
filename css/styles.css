@@ -307,9 +307,9 @@ img {
 
 .button-list {
   display: flex;
-  gap: 48px;
+  gap: 24px;
   justify-content: center;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .portfolio-list {
@@ -384,10 +384,6 @@ img {
   margin-bottom: 8px;
 }
 
-.team-title {
-  margin-bottom: 8px;
-}
-
 /* portfolio styles */
 .portfolio-btn {
   line-height: 1.50;
@@ -398,5 +394,6 @@ img {
 }
 
 .portfolio-list {
-  gap: 24px;
+  column-gap: 24px;
+  row-gap: 48px;
 }
