@@ -269,11 +269,15 @@ img {
   text-align: center;
 }
 
+.team-list {
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
+}
+
 .team-card {
   padding: 32px 16px;
   background-color: var(--primary-bg-cl);
-  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-  border-radius: 0px 0px 4px 4px;
+
 }
 
 /**
@@ -381,17 +385,9 @@ img {
   line-height: 1.50;
 }
 
-.features-title {
-  margin-bottom: 8px;
-}
-
 /* portfolio styles */
 .portfolio-btn {
   line-height: 1.50;
-}
-
-.portfolio-title {
-  margin-bottom: 8px;
 }
 
 .portfolio-list {
