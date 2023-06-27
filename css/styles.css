@@ -72,6 +72,16 @@ body {
   line-height: 1.20;
 }
 
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
 /* Reset */
 
 h1,
@@ -86,6 +96,8 @@ p {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .list {
@@ -111,7 +123,8 @@ img {
   |============================
 */
 
-.header {
+.header-link {
+  display: block;
   padding-top: 25.5px;
   padding-bottom: 25.5px;
 }
